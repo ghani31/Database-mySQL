@@ -1,6 +1,6 @@
 <?php 
 
-$conn = mysqli_connect('localhost', 'root', '', 'db_mahasiswa');
+include 'config/koneksi.php';
 $result = mysqli_query($conn, "SELECT * FROM jurusan");
 
  ?>
